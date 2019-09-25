@@ -8,9 +8,9 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://new-per.netlify.com/demo-3.html
+Site published at https://front-end-by-rimantas.github.io/10-grupe-portfolio-netlify/index.html
 
-Design: [Netlify template](http://phydev.web44.net/warg/home-light.html)
+Design: [Netlify template](https://new-per.netlify.com/demo-3.html)
 
 ### Authors
 [Greta](https://github.com/Gretata), [Modestas](https://github.com/mode12345678), [Paulius](https://github.com/PauliusPo)
