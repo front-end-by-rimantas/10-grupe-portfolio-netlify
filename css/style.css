@@ -89,3 +89,140 @@ body * {
 }
 
 
+/* START BLOG SECTION */
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #484848;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.title h3 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 36px;
+}
+.title h3::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #9c27b0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title h3 span {
+    color: #9c27b0;
+}
+
+.item-blog {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.img-absolute  {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #fff;
+    font-weight: 400px;
+    border-radius: 30px;
+    padding: .2rem .4rem;
+    text-decoration: none;
+}
+
+.item-blog > :last-child {
+    margin-left: 0px;
+}
+
+.img-absolute > a {
+    text-decoration: none;
+    color: #9c27b0;
+    font-size: 16px;
+}
+
+.item-blog {
+    background-color: #f4f5f8;
+    line-height: 28px;      
+}
+
+a > h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #232323;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font: bold; 
+}
+
+.item-blog a {
+    text-decoration: none;
+}
+.content-blog a h4:hover {
+    color: #9c27b0;
+}
+
+.item-blog > div > img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-blog {
+    padding-bottom: 20px;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.content-blog > p {
+    text-align: center;
+    color: #777;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.info-client {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-radius: 27px;
+    margin-bottom: 15px;
+}
+
+.info-client > img {
+    object-fit: contain;
+    float: left;
+    max-width: 50px;
+    max-height: 55px;
+    border-radius: 50%;
+    border: 5px solid #f4f5f8;;
+}
+
+.info-client > p {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    margin: 10px 20px;
+    color: #232323;
+    text-transform: uppercase;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 200;
+}
+/* END BLOG SECTION */
