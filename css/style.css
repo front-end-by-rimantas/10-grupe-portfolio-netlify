@@ -133,6 +133,73 @@ div.title-left {
 /* END ABOUT ME SECTION */
 
 
+
+/* START MY SKILLS SECTION */
+.progress{
+    display: inline-block;
+    width: 1200px;
+    margin: 0 calc( (100% - 1200px) / 2);   
+}
+.progress-section {        
+    background-color: #F4F5F8;
+
+}
+.progress > .progress-center{ 
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.progress-center > h3{
+    font-size: 28px;
+    margin-top: 30px;
+    text-shadow: 2px 2px lightgray;
+}
+.progress > .progress-center span::before{ 
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 48px;
+    left: 0;
+    bottom: -5px;
+    border-bottom: 1px solid #9C27B0;
+    margin-top: 2px;
+}
+.progress > .progress-center span::after{ 
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 55px;
+    left: 47px;
+    bottom: -6px;
+    border-bottom: 1px solid #fff;
+    margin-top: 2px;
+}
+.progress-center span {
+    color:#9C27B0;
+    padding-right: 5px;
+    position: relative;
+}
+.progress-left-side {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.progress-right-side {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+/* END MY SKILLS SECTION */
+
+
+
 /* START SERVICES SECTION */
 .my-services {
     background-color: #f4f5f8;
