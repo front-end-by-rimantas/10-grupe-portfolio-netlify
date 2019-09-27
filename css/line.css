@@ -1,4 +1,4 @@
-.about-me-content > .title::before{ 
+/* .about-me-content > .title::before{ 
     content: "";
     position: absolute;
     display: inline-block;
@@ -17,6 +17,6 @@
     bottom: -50px;
     border-bottom: 3px solid lightgray;
    
-}
+} */
 
 
