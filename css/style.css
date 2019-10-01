@@ -199,6 +199,167 @@ div.title-left {
 /* END MY SKILLS SECTION */
 
 
+/* MY RESUME STARTS HERE */
+
+                   /* My resume css */
+.my-resume {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+}
+    .resume-center{
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 100px;
+            
+    }
+    .resume-center > h3{
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px lightgray;
+    }
+    .resume-left > .resume-list-left > h5{
+        color: #9C27B0;
+    }
+    .resume-right > .resume-list-right > h5{
+        color: #9C27B0;
+                    }
+    .resume-center span {
+        color:#9C27B0;
+        padding-right: 5px;
+        position: relative;
+    }
+    .my-resume > .resume-center span::before{ 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 48px;
+        left: 0;
+        bottom: -4px;
+        border-bottom: 1px solid #9C27B0;
+        margin-top: 2px;
+    }
+    .my-resume > .resume-center span::after{ 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 95px;
+        left: 47px;
+        bottom: -5px;
+        border-bottom: 1px solid lightgray;
+        margin-top: 2px;
+    }
+    .resume-left{
+        display: inline-block;
+        width: 50%;
+        float: left;
+        background-color: #fff;
+        padding-right: 45px;        
+        }
+    .resume-left > .resume-list-left > p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .resume-left > .resume-list-left > h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .resume-left > .resume-list-left > h6 {
+        font-size: 18px;
+    }        
+    .resume-list-left{
+        text-align: right;
+        padding-right: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+        border-right: 1px solid lightgray;   
+        position: relative;
+    }
+    .resume-list-left > .element-left::before{
+        display: inline-block;
+        content: "";
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        border-radius: 50%;
+        border: 4px solid #d6b161;
+        background-color: black;
+        top: 28px;
+        right: 0px;
+        left: 546px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .resume-list-right{
+        text-align: left;
+        padding-left: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;    
+        border-left: 1px solid lightgray;
+        position: relative;
+    }
+    .resume-list-right > .element-right::before{
+        display: inline-block;
+        content: "";
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        border-radius: 50%;
+        border: 4px solid #d6b161;
+        background-color: black;
+        top: 28px;
+        right: 550px;
+        left: -10px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .resume-right > .resume-list-right > p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        position: relative;
+    }
+    .resume-right > .resume-list-right > h5 {
+        text-transform: uppercase;
+        font-size: 18px; 
+        margin-bottom: 8px;
+    }
+    .resume-right > .resume-list-right > h6 {
+        font-size: 18px;
+                 }
+    .resume-right{
+        display: inline-block;
+        width: 50%;
+        float: right;
+        background-color: #fff;
+        padding-left: 45px;
+        }
+            
+                                  /* ICONS ARE HERE */
+    .my-resume > .my-resume-icons{
+        display: inline-block;
+        width: 1200px;
+        margin: calc( (1200px - 100%) / 2);
+        text-align: center;     
+    }
+    .my-resume > .my-resume-icons > i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        border-radius: 50%;
+        margin: 0 20px;
+                }
+
+
+/* MY RESUME ENDS HERE */
+
+
 
 /* START SERVICES SECTION */
 .my-services {
