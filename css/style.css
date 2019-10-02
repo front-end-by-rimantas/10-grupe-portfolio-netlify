@@ -20,7 +20,21 @@ section {
         display: inline-block;
         width: 1200px;
         margin: 0 calc(50% - 600px);
+
+        
     }
+p1{
+    font-size: 26px;
+    font-weight: 900 !important;
+}
+p2{
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
 
     @media ( max-width: 1300px ) {
         .container {
