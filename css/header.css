@@ -1,0 +1,27 @@
+#headd{
+	background-color: #9C27B0;
+	height: 150px;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	font-size: 80px;
+	color: white;
+	font-family:fantasy;
+	border-bottom: 2px solid white;
+	box-shadow: 1px 3px 30px black;
+	text-transform: upp
+		
+}
+#x{
+	color:black;
+}
+#headd .name{
+	font-size: 500px;
+	color: white;
+}
+#headd div p{
+	height: auto;
+	width:500px;
+	border-bottom: 8px solid white;
+	padding-left: 10px;
+}

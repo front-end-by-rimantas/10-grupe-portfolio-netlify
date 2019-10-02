@@ -13,4 +13,5 @@ Site published at https://front-end-by-rimantas.github.io/10-grupe-portfolio-net
 Design: [Netlify template](https://new-per.netlify.com/demo-3.html)
 
 ### Authors
-[Greta](https://github.com/Gretata), [Modestas](https://github.com/mode12345678), [Paulius](https://github.com/PauliusPo)
+[Greta](https://github.com/Gretata), [Modestas](https://github.com/mode12345678), [Paulius](https://github.com/PauliusPo),
+(https://github.com/Abbeyme1)[Abbey](made some changes only);
