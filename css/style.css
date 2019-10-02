@@ -87,6 +87,11 @@ section {
 /* title p */
 div.title-left {
     text-align: left;
+    
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
 }
 /* .about-me-content .title {
     position: relative; 
@@ -126,7 +131,7 @@ div.title-left {
     width: 100%; 
     font-size: 15px; 
     line-height: 26px;
-    color:darkgrey; 
+    color:black; 
     padding: 5px;
     margin-bottom: 20px;
 }
@@ -170,16 +175,27 @@ div.title-left {
     content: "";
     position: absolute;
     display: inline-block;
-    width: 55px;
+    width: 100px;
     left: 47px;
     bottom: -6px;
     border-bottom: 1px solid #fff;
     margin-top: 2px;
 }
 .progress-center span {
+  
+   
     color:#9C27B0;
     padding-right: 5px;
     position: relative;
+ 
+    
+}
+
+.progress-center h3{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
 }
 .progress-left-side {
     display: inline-block;
@@ -218,6 +234,11 @@ div.title-left {
         margin-top: 30px;
         margin-bottom: 20px;
         text-shadow: 2px 2px lightgray;
+        
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
     }
     .resume-left > .resume-list-left > h5{
         color: #9C27B0;
@@ -392,6 +413,11 @@ div.title-left {
     position: absolute;
     left: 0;
     bottom: 0;
+   
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
 }
 .title-white  h3 span {
     color: #9c27b0;
@@ -482,6 +508,11 @@ div.title-left {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 36px;
+  
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
 }
 .title h3::before {
     content: '';
