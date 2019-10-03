@@ -1,0 +1,602 @@
+/* RESET */
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    /* word-break: break-all; */
+}
+
+/* START LAYOUT */
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0;
+}
+    .container {
+        display: inline-block;
+        width: 1200px;
+        margin: 0 calc(50% - 600px);
+    }
+
+    @media ( max-width: 1300px ) {
+        .container {
+            width: 1000px;
+            margin: 0 calc(50% - 500px);
+        }
+    }
+    
+    @media ( max-width: 1100px ) {
+        .container {
+            width: 800px;
+            margin: 0 calc(50% - 400px);
+        }
+    }
+    
+    @media ( max-width: 900px ) {
+        .container {
+            width: 500px;
+            margin: 0 calc(50% - 250px);
+        }
+    }
+    
+    @media ( max-width: 600px ) {
+        .container {
+            width: calc(100% - 40px);
+            margin: 0 20px;
+        }
+    }
+    /* END LAYOUT */
+
+
+
+    /* START ABOUT ME SECTION */
+.about-me-pic {
+    display: inline-block;
+    float: left;
+    width: 38%;
+    /* height: 80vh; */
+    /* background-color:pink; */
+    padding: 5px;
+}
+
+    .about-me-pic img {
+        display: inline-block;
+        float: left; 
+        border: 3px solid lightgrey;
+        background-color: lightgrey;
+        border-radius: 4px;
+        padding: 5px;
+        width: 95%;
+        height: 95%;
+        /* object-fit: fill; */
+}
+
+.about-me-content {
+    display: inline-block;
+    float: right;
+    width: 60%;
+    height: 90vh;
+    /* background-color:green; */
+    padding: 5px;
+}
+
+/* title p */
+div.title-left {
+    text-align: left;
+}
+/* .about-me-content .title {
+    position: relative; 
+}
+    .about-me-content h3 {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-size: 30px; 
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #9C27B0; 
+    padding: 5px; 
+} */
+
+/* title nukeliauja i kaire */
+    .about-me-content span {
+        color: black;
+} 
+
+    .about-me-content p1 {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-size: 20px; 
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    color: black; 
+    padding: 10px;
+}
+
+    .about-me-content p2 {
+    display: inline-block;
+    float: left;
+    width: 100%; 
+    font-size: 15px; 
+    line-height: 26px;
+    color:darkgrey; 
+    padding: 5px;
+    margin-bottom: 20px;
+}
+/* END ABOUT ME SECTION */
+
+
+
+/* START MY SKILLS SECTION */
+.progress{
+    display: inline-block;
+    width: 1200px;
+    margin: 0 calc( (100% - 1200px) / 2);   
+}
+.progress-section {        
+    background-color: #F4F5F8;
+
+}
+.progress > .progress-center{ 
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.progress-center > h3{
+    font-size: 28px;
+    margin-top: 30px;
+    text-shadow: 2px 2px lightgray;
+}
+.progress > .progress-center span::before{ 
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 48px;
+    left: 0;
+    bottom: -5px;
+    border-bottom: 1px solid #9C27B0;
+    margin-top: 2px;
+}
+.progress > .progress-center span::after{ 
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 55px;
+    left: 47px;
+    bottom: -6px;
+    border-bottom: 1px solid #fff;
+    margin-top: 2px;
+}
+.progress-center span {
+    color:#9C27B0;
+    padding-right: 5px;
+    position: relative;
+}
+.progress-left-side {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.progress-right-side {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+/* END MY SKILLS SECTION */
+
+
+/* MY RESUME STARTS HERE */
+
+                   /* My resume css */
+.my-resume {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+}
+    .resume-center{
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 100px;
+            
+    }
+    .resume-center > h3{
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px lightgray;
+    }
+    .resume-left > .resume-list-left > h5{
+        color: #9C27B0;
+    }
+    .resume-right > .resume-list-right > h5{
+        color: #9C27B0;
+                    }
+    .resume-center span {
+        color:#9C27B0;
+        padding-right: 5px;
+        position: relative;
+    }
+    .my-resume > .resume-center span::before{ 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 48px;
+        left: 0;
+        bottom: -4px;
+        border-bottom: 1px solid #9C27B0;
+        margin-top: 2px;
+    }
+    .my-resume > .resume-center span::after{ 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 95px;
+        left: 47px;
+        bottom: -5px;
+        border-bottom: 1px solid lightgray;
+        margin-top: 2px;
+    }
+    .resume-left{
+        display: inline-block;
+        width: 50%;
+        float: left;
+        background-color: #fff;
+        padding-right: 45px;        
+        }
+    .resume-left > .resume-list-left > p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .resume-left > .resume-list-left > h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .resume-left > .resume-list-left > h6 {
+        font-size: 18px;
+    }        
+    .resume-list-left{
+        text-align: right;
+        padding-right: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+        border-right: 1px solid lightgray;   
+        position: relative;
+    }
+    .resume-list-left > .element-left::before{
+        display: inline-block;
+        content: "";
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        border-radius: 50%;
+        border: 4px solid #d6b161;
+        background-color: black;
+        top: 28px;
+        right: 0px;
+        left: 546px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .resume-list-right{
+        text-align: left;
+        padding-left: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;    
+        border-left: 1px solid lightgray;
+        position: relative;
+    }
+    .resume-list-right > .element-right::before{
+        display: inline-block;
+        content: "";
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        border-radius: 50%;
+        border: 4px solid #d6b161;
+        background-color: black;
+        top: 28px;
+        right: 550px;
+        left: -10px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .resume-right > .resume-list-right > p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        position: relative;
+    }
+    .resume-right > .resume-list-right > h5 {
+        text-transform: uppercase;
+        font-size: 18px; 
+        margin-bottom: 8px;
+    }
+    .resume-right > .resume-list-right > h6 {
+        font-size: 18px;
+                 }
+    .resume-right{
+        display: inline-block;
+        width: 50%;
+        float: right;
+        background-color: #fff;
+        padding-left: 45px;
+        }
+            
+                                  /* ICONS ARE HERE */
+    .my-resume > .my-resume-icons{
+        display: inline-block;
+        width: 1200px;
+        margin: calc( (1200px - 100%) / 2);
+        text-align: center;     
+    }
+    .my-resume > .my-resume-icons > i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        border-radius: 50%;
+        margin: 0 20px;
+                }
+
+
+/* MY RESUME ENDS HERE */
+
+
+
+/* START SERVICES SECTION */
+.my-services {
+    background-color: #f4f5f8;
+}
+.title-white {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #484848;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.title-white h3 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.title-white  h3::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #9c27b0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title-white  h3 span {
+    color: #9c27b0;
+}
+
+
+.my-services::after{
+    content: "";
+    position: absolute;
+    left: 5%;
+    top: 225%;
+    background-color: #fff;
+    width: 90%;
+    height: 1px;
+}
+
+.item-services {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 30%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 32px 24px;
+    margin: 0 0 50px;
+    margin-left: 30px;
+    line-height: 28px;
+    
+     
+}
+.item-services i{
+    display: inline-block;
+    font-size: 32px;
+    text-align: center;
+    background-color: #fff;
+    color: #9c27b0;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.item-services:hover i {
+    color: #fff;
+    background-color: #9c27b0;
+    box-shadow: 0px 10px 60px grey;
+}
+
+.item-services > h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.item-services > p {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #777;
+    font-size: 14.4px;
+    
+}
+.icon-services {
+    margin-bottom: 20px;
+}
+/* END SERVICES SECTION */
+
+
+
+/* START BLOG SECTION */
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #484848;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.title h3 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 36px;
+}
+.title h3::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #9c27b0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title h3 span {
+    color: #9c27b0;
+}
+
+.item-blog {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.img-absolute  {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #fff;
+    font-weight: 400px;
+    border-radius: 30px;
+    padding: .2rem .4rem;
+    text-decoration: none;
+}
+
+.item-blog > :last-child {
+    margin-left: 0px;
+}
+
+.img-absolute > a {
+    text-decoration: none;
+    color: #9c27b0;
+    font-size: 16px;
+}
+
+.item-blog {
+    background-color: #f4f5f8;
+    line-height: 28px;      
+}
+
+a > h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #232323;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font: bold; 
+}
+
+.item-blog a {
+    text-decoration: none;
+}
+.content-blog a h4:hover {
+    color: #9c27b0;
+}
+
+.item-blog > div > img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-blog {
+    padding-bottom: 20px;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.content-blog > p {
+    text-align: center;
+    color: #777;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.info-client {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-radius: 27px;
+    margin-bottom: 15px;
+}
+
+.info-client > img {
+    object-fit: contain;
+    float: left;
+    max-width: 50px;
+    max-height: 55px;
+    border-radius: 50%;
+    border: 5px solid #f4f5f8;;
+}
+
+.info-client > p {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    margin: 10px 20px;
+    color: #232323;
+    text-transform: uppercase;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 200;
+}
+/* END BLOG SECTION */
