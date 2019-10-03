@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <!--
+    Hey, you ! Author of this repo ! Great job, I've updated a little bit your accessibility or performance and write some comments for how I've modified something. Doesn't hesitate to contact me if you've some question!
+    -->
+
+    <!--
+    You can see how works in mobile-first to get a fully responsible website : https://zellwk.com/blog/how-to-write-mobile-first-css/
+    -->
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,284 +17,283 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/variables.css">
         <link rel="stylesheet" href="./css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-        <link rel="stylesheet" href="./css/layout.css">
-        <link rel="stylesheet" href="./css/button.css">
-        <link rel="stylesheet" href="./css/form.css">
-        <link rel="stylesheet" href="./css/gallery.css">
         <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/table.css"> 
-        <link rel="stylesheet" href="./css/line.css">
-        <link rel="stylesheet" href="./css/progress-bar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     </head>
-<!-- header -->
+    <!-- header -->
     <body>
         <header>
             <div class="container">
                 Header
             </div>
         </header>
-<!-- hero -->
+        <!-- hero -->
         <section>
             <div class="container">
                 Hero
             </div>
         </section>
-<!-- about me -->
-<div class="container">
-    <div class="about-me-pic">
-            <img src="./img/about me.jpg" alt="Photo">
-    </div>
+        <!-- about me -->
+        <div class="container">
+            <div class="about-me-pic">
+                    <img src="./img/about me.jpg" alt="Photo">
+            </div>
 
-     
+            
 
-    <div class="about-me-content">
-        <!-- <div class="title">
-                <h3> About <span> Me </span> </h3>
-    </div> -->
+            <div class="about-me-content">
+                <!-- <div class="title">
+                            <h3> About <span> Me </span> </h3>
+                </div> -->
 
-    <!-- title -->
-    <!-- Gretos uzkomentinau - virsuje, o cia idejau, kad susivienodinti title -->
-    <div class="title title-left">
-            <h3><span>about</span> me</h3>
+                <!-- title -->
+                <!-- Gretos uzkomentinau - virsuje, o cia idejau, kad susivienodinti title -->
+                <div class="title title-left">
+                    <h3><span>about</span> me</h3>
+                </div>
+
+                <p1> I am a UX/UI designer and a human </p1>
+
+                <p2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium suscipit eveniet corrupti. 
+                    Provident fugiat officia vitae a voluptate distinctio ad adipisci similique cum impedit, nostrum veniam. 
+                    Voluptatibus, optio maiores.</p2>
+
+                <table>
+                    <tr>
+                        <td>NAME: <span style="color: grey">John Doe </span> </td>
+                        <td>Email : <span style="color: grey">John_Doe@Gmail.com </span></td>
+                    </tr>
+                    <tr>
+                        <td>AGE: <span style="color: grey"> 27</span> </td>
+                        <td>LOCATION: <span style="color: grey">Los Angeles, USA</span> </td>
+                    </tr>
+                </table>
+                    
+                <!-- If you're 'link action' goes to another page, use <a href="">, but if is it an action, like download CV or open Modal, use <button> -->
+                <button class="btn btn--first">Download Resume</button>
+                <a href="" class="btn btn--second">Hire Me</a>
+            </div>
         </div>
 
-    <p1> I am a UX/UI designer and a human </p1>
-
-    <p2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium suscipit eveniet corrupti. 
-        Provident fugiat officia vitae a voluptate distinctio ad adipisci similique cum impedit, nostrum veniam. 
-        Voluptatibus, optio maiores.</p2>
-
-    <table>
-            <tr>
-            <td> NAME: <span style="color: grey">John Doe </span> </td>
-            <td>Email : <span style="color: grey">John_Doe@Gmail.com </span></td>
-            </tr>
-            <tr>
-            <td> AGE: <span style="color: grey"> 27</span> </td>
-            <td> LOCATION: <span style="color: grey">Los Angeles, USA</span> </td>
-            </tr>
-           </table>
-         
-    <div class="btn1"> Download Resume </div>
-    <div class="btn2"> Hire Me </div>
-    </div>
-</div>
-<!-- skills -->
-<section id="progress-part" class="progress-section">
-    <div class="container">
-        <div class="progress">
-            <div class="progress-center">
-            <h3><span>My</span>Skills</h3>
-            </div>
-            <div class="progress-left-side">
-                <div class="progress-bar">
-                    <div class="texts">
-                    <div class="title">Photography</div>
+        <!-- skills -->
+        <section id="progress-part" class="progress-section">
+            <div class="container">
+                <div class="progress">
+                    <div class="progress-center">
+                    <h3><span>My</span>Skills</h3>
                     </div>
-                    <div class="bar">
-                    <div class="value" style="width: 75%;">
-                    <div class="loading"><span class="tips">75%</span></div>
-                    </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="texts">
-                        <div class="title">branding</div>
-                    </div>
-                    <div class="bar">
-                        <div class="value" style="width: 95%;">
-                            <div class="loading"><span class="tips">95%</span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="texts">
-                        <div class="title">graphic design</div>
-                    </div>
-                    <div class="bar">
-                        <div class="value" style="width: 70%;">
-                        <div class="loading"><span class="tips">70%</span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="texts">
-                        <div class="title">develpement</div>
-                    </div>
-                    <div class="bar">
-                        <div class="value" style="width: 80%;">
-                        <div class="loading"><span class="tips">80%</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div class="progress-right-side">
-                    <div class="progress-bar">
-                        <div class="texts">
-                            <div class="title">html/css</div>
-                        </div>
-                    <div class="bar">
-                        <div class="value" style="width: 95%;">
-                        <div class="loading"><span class="tips">95%</span></div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="texts">
-                            <div class="title">js/jquery</div>
-                        </div>
-                        <div class="bar">
-                            <div class="value" style="width: 80%;">
-                                <div class="loading"><span class="tips">80%</span></div>
+                    <div class="progress-left-side">
+                        <div class="progress-bar">
+                            <div class="texts">
+                            <div class="title">Photography</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="texts">
-                            <div class="title">php/wordpress</div>
-                        </div>
-                        <div class="bar">
+                            <div class="bar">
                             <div class="value" style="width: 75%;">
-                                <div class="loading"><span class="tips">75%</span></div>
+                            <div class="loading"><span class="tips">75%</span></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="texts">
+                                <div class="title">branding</div>
+                            </div>
+                            <div class="bar">
+                                <div class="value" style="width: 95%;">
+                                    <div class="loading"><span class="tips">95%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="texts">
+                                <div class="title">graphic design</div>
+                            </div>
+                            <div class="bar">
+                                <div class="value" style="width: 70%;">
+                                <div class="loading"><span class="tips">70%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="texts">
+                                <div class="title">develpement</div>
+                            </div>
+                            <div class="bar">
+                                <div class="value" style="width: 80%;">
+                                <div class="loading"><span class="tips">80%</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <div class="texts">
-                            <div class="title">photo shop</div>
-                        </div>
-                        <div class="bar">
-                            <div class="value" style="width: 94%;">
-                                <div class="loading"><span class="tips">94%</span></div>
+                        <div class="progress-right-side">
+                            <div class="progress-bar">
+                                <div class="texts">
+                                    <div class="title">html/css</div>
+                                </div>
+                            <div class="bar">
+                                <div class="value" style="width: 95%;">
+                                <div class="loading"><span class="tips">95%</span></div>
+                                </div>
                             </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="texts">
+                                    <div class="title">js/jquery</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="value" style="width: 80%;">
+                                        <div class="loading"><span class="tips">80%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="texts">
+                                    <div class="title">php/wordpress</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="value" style="width: 75%;">
+                                        <div class="loading"><span class="tips">75%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="texts">
+                                    <div class="title">photo shop</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="value" style="width: 94%;">
+                                        <div class="loading"><span class="tips">94%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                </div>
+            </div>
+        </section>
+        <!-- .end skills -->
+
+        <!-- resume -->
+        <section>
+            <div class="container">
+                <!-- MY RESUME BEGINS HERE!!!!!!!!!!!!!!!!! -->
+                <div class="my-resume">
+                    <div class="resume-center">
+                        <h3><span>My</span>Resume</h3>
+                    </div>
+                    <div class="my-resume-icons" >
+                    <i class="fa fa-book"></i>
+                    <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="resume-left" >
+                        <div class="resume-list-left">
+                            <p>Jan 2004-Dec 2006<div class="element-left"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
+                        </div>
+                        <div class="resume-list-left">
+                            <p> Jan 2004-Dec 2006<div class="element-left"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
+                        </div>
+                        <div class="resume-list-left">
+                            <p>Jan 2004-Dec 2006<div class="element-left"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
                         </div>
                     </div>
-                </div>    
-        </div>
-    </div>
-</section>
-<!-- resume -->
-<section>
-    <div class="container">
-        <!-- MY RESUME BEGINS HERE!!!!!!!!!!!!!!!!! -->
-        <div class="my-resume">
-            <div class="resume-center">
-                <h3><span>My</span>Resume</h3>
-            </div>
-            <div class="my-resume-icons" >
-            <i class="fa fa-book"></i>
-            <i class="fa fa-briefcase"></i>
-            </div>
-            <div class="resume-left" >
-                <div class="resume-list-left">
-                    <p>Jan 2004-Dec 2006<div class="element-left"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
-                </div>
-                <div class="resume-list-left">
-                    <p> Jan 2004-Dec 2006<div class="element-left"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
-                </div>
-                <div class="resume-list-left">
-                    <p>Jan 2004-Dec 2006<div class="element-left"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
+                    <!-- THE RIGHT SIDE OF MY RESUME -->
+                    <div class="resume-right" >
+                        <div class="resume-list-right">
+                            <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
+                        </div>
+                        <div class="resume-list-right">
+                            <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
+                        </div>
+                        <div class="resume-list-right">
+                            <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
+                            <h5>specialization course</h5>
+                            <h6>University of studies, Poland, Cracow</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- THE RIGHT SIDE OF MY RESUME -->
-            <div class="resume-right" >
-                <div class="resume-list-right">
-                    <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
-                </div>
-                <div class="resume-list-right">
-                    <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
-                </div>
-                <div class="resume-list-right">
-                    <p>Jan 2004-Dec 2006<div class="element-right"></div></p>
-                    <h5>specialization course</h5>
-                    <h6>University of studies, Poland, Cracow</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
+        <!-- .end resume -->
+
 <!-- counter -->
         <section>
             <div class="container">
                 Counter
             </div>
         </section>
-<!-- services -->
-<section id="services" class="my-services">
-    <div class="container services">
-        <!-- title -->
-        <div class="title-white">
-            <h3><span>my</span> services</h3>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-tags"></i>
+        <!-- services -->
+        <section id="services" class="my-services">
+            <div class="container services">
+                <!-- title -->
+                <div class="title-white">
+                    <h3><span>my</span> services</h3>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h4>Branding</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h4>WEB DESIGN</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h4>MARKETING</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>CLEAN CODE</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h4>FRIEndLY ALL SCREEN</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
+                <!-- item services -->
+                <div class="item-services">
+                    <div class="icon-services">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h4>UNLIMITED SUPPORT</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry.</p>
+                </div>
             </div>
-            <h4>Branding</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-laptop"></i>
-            </div>
-            <h4>WEB DESIGN</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-shopping-basket"></i>
-            </div>
-            <h4>MARKETING</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-code"></i>
-            </div>
-            <h4>CLEAN CODE</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-tablet-alt"></i>
-            </div>
-            <h4>FRIEndLY ALL SCREEN</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-        <!-- item services -->
-        <div class="item-services">
-            <div class="icon-services">
-                <i class="fas fa-compass"></i>
-            </div>
-            <h4>UNLIMITED SUPPORT</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the industry.</p>
-        </div>
-    </div>
-</section>
-<!-- portfolio -->
+        </section>
+
+        <!-- .end portfolio -->
         <section>
             <div class="container">
                 My Portfolio
@@ -298,80 +305,82 @@
                 Testimonel
             </div>
         </section>
-<!-- blog -->
-<section>
-    <div class="container">
-    <!-- title -->
-        <div class="title">
-            <h3><span>latest</span> blog</h3>
-        </div>
-    <!-- item blog -->
-        <div class="item-blog">
-            <div class="img-absolute">
-                <a href="#">UX/UI</a>
-            </div>
-            <div class="img-blog">
-                <img src="https://new-per.netlify.com/img/blog/1.jpg" alt="picture 1">
-            </div>
-            <div class="content-blog">
-                <a href="#">
-                <h4>Light Trails on Highway</h4>
-                </a>
-                <p>Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.
-                </p>
-                <div class="info-client">
-                <img src="https://new-per.netlify.com/img/testimonel/1.jpg" alt="face 1">
-                <p>By: Jack Daniel | 25 june 2017</p>
-                </div>
-            </div>
-        </div>
-    <!-- item blog -->
-        <div class="item-blog">
-            <div class="img-absolute">
-                <a href="#">Web Design</a>
-            </div>
-            <div class="img-blog">
-                <img src="https://new-per.netlify.com/img/blog/2.jpg" alt="picture 2">
-            </div>
-            <div class="content-blog">
-                <a href="#">
-                <h4>Riomaggiore Coast Scene</h4>
-                </a>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
-                <div class="info-client">
-                <img src="https://new-per.netlify.com/img/testimonel/2.jpg" alt="face 2">
-                <p>By: Jack Daniel | 25 june 2017</p>
-                </div>
-            </div>
-        </div>
-    <!-- item blog -->
-        <div class="item-blog">
-            <div class="img-absolute">
-                <a href="#">Development</a>
-            </div>
-            <div class="img-blog">
-                <img src="https://new-per.netlify.com/img/blog/3.jpg" alt="picture 3">
-            </div>
-            <div class="content-blog">
-                <a href="#">
-                <h4>10 Secrets Tips For Web Design</h4>
-                </a>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
-                <div class="info-client">
-                <img src="https://new-per.netlify.com/img/testimonel/3.jpg" alt="face 3">
-                <p>By: Jack Daniel | 25 june 2017</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact -->
+
+        <!-- blog -->
         <section>
             <div class="container">
-                Contact
+            <!-- title -->
+                <div class="title">
+                    <h3><span>latest</span> blog</h3>
+                </div>
+            <!-- item blog -->
+                <article class="item-blog">
+                    <div class="img-absolute">
+                        <a href="#">UX/UI</a>
+                    </div>
+                    <div class="img-blog">
+                        <img src="https://new-per.netlify.com/img/blog/1.jpg" alt="picture 1">
+                    </div>
+                    <div class="content-blog">
+                        <a href="#">
+                        <h4>Light Trails on Highway</h4>
+                        </a>
+                        <p>Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.
+                        </p>
+                        <div class="info-client">
+                        <img src="https://new-per.netlify.com/img/testimonel/1.jpg" alt="face 1">
+                        <p>By: Jack Daniel | 25 june 2017</p>
+                        </div>
+                    </div>
+                </article>
+            <!-- item blog -->
+                <article class="item-blog">
+                    <div class="img-absolute">
+                        <a href="#">Web Design</a>
+                    </div>
+                    <div class="img-blog">
+                        <img src="https://new-per.netlify.com/img/blog/2.jpg" alt="picture 2">
+                    </div>
+                    <div class="content-blog">
+                        <a href="#">
+                        <h4>Riomaggiore Coast Scene</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
+                        <div class="info-client">
+                        <img src="https://new-per.netlify.com/img/testimonel/2.jpg" alt="face 2">
+                        <p>By: Jack Daniel | 25 june 2017</p>
+                        </div>
+                    </div>
+                </article>
+            <!-- item blog -->
+                <article class="item-blog">
+                    <div class="img-absolute">
+                        <a href="#">Development</a>
+                    </div>
+                    <div class="img-blog">
+                        <img src="https://new-per.netlify.com/img/blog/3.jpg" alt="picture 3">
+                    </div>
+                    <div class="content-blog">
+                        <a href="#">
+                        <h4>10 Secrets Tips For Web Design</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
+                        <div class="info-client">
+                        <img src="https://new-per.netlify.com/img/testimonel/3.jpg" alt="face 3">
+                        <p>By: Jack Daniel | 25 june 2017</p>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
-<!-- footer -->
+
+        <!-- contact -->
+                <section>
+                    <div class="container">
+                        Contact
+                    </div>
+                </section>
+        <!-- footer -->
         <footer>
             <div class="container">
                 Footer
