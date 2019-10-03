@@ -56,6 +56,7 @@
         Provident fugiat officia vitae a voluptate distinctio ad adipisci similique cum impedit, nostrum veniam. 
         Voluptatibus, optio maiores.</p2>
 
+        <!-- Perdaryti nenaudojant table, tr, td elementų, nes jie skirti būtent lentelėms kurti; plius, norint padaryti šį turinį "responsive design" principu - tampa padoriai neįmanoma; -->
     <table>
             <tr>
                 <td> NAME: <span style="color: grey">John Doe </span> </td>
@@ -372,8 +373,9 @@
                     <div class="title">
                     <h3><span>Get</span> In Touch</h3>
                     </div>
-                
+             
                 <form>
+                    <div class="form-container">
                     <i class="fa fa-user"></i>
                     <input name="name" type="text" placeholder="Your Full Name Here">
 
@@ -382,6 +384,7 @@
 
                     <i class="fa fa-comment"></i> 
                     <textarea name="message" type="text" placeholder="Message For Me"></textarea> 
+                    </div>
                 </form>
 
                 <div class="btn3"> SEND MESSAGE </div>
@@ -389,7 +392,10 @@
             </div>
 
                 <div class="contact-info-container"> 
-                    <!-- cia reiks padaryt background color violetine, ir tada ikelti foto + duoti z-index ir opacity. skamba logiskai :)) -->
+                    <!-- cia reiks padaryt background color violetine, + duoti z-index ir opacity-->
+                        <div class="contact-pic">
+                         <img src="./img/contact.png" alt="Photo">
+                    
                     <h2> Contact Info </h2>
 
                     <p3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci excepturi 
@@ -401,8 +407,8 @@
                     <p5> DEMO@GMAIL.COM </p5>
                     <i class="fa fa-map-marker"></i>
                     <p6> 3481 MELROSE PLACE, LOS ANGELES </p6>
+                        </div>
                 </div>
-
             </div>
         </section>
 <!-- footer -->
