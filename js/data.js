@@ -1,9 +1,9 @@
-const achievements = [
-    ['box', 245, 'Total projects'],
-    ['box', 245, 'Total projects'],
-    ['box', 245, 'Total projects'],
-    ['box', 245, 'Total projects']
-];
+// const achievements = [
+//     ['box', 245, 'Total projects'],
+//     ['box', 245, 'Total projects'],
+//     ['box', 245, 'Total projects'],
+//     ['box', 245, 'Total projects']
+// ];
 const images = [
     {
         picture: '6.jpg',

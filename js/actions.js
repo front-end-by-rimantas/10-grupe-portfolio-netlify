@@ -1,2 +1,2 @@
-renderAchievements( achievements );
-renderMy-portfolio-gallery('#container > .my-portfolio:nth-child(2)', Images);
+// renderAchievements( achievements );
+renderImages('.my-portfolio .item-list', images);
