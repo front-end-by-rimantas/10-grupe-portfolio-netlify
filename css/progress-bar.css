@@ -5,13 +5,16 @@
     margin-top: 20px;
 }
     .progress-bar > .texts {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 10px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
     }
     .progress-bar > .texts > .title {
-    display: inline-block;
-    float: left;
+        display: inline-block;
+        float: left;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     /* Progress bar liniju dalis */
@@ -31,20 +34,20 @@
     }
     .tips{
         display: inline-block;
-            position: absolute;
-            margin-top: -11px;
-            right: -5px;
-            background-color: #F4F5F8;
-            padding: 4px;
-            border-radius: 10px;
+        position: absolute;
+        margin-top: -11px;
+        right: -5px;
+        background-color: #F4F5F8;
+        padding: 4px;
+        border-radius: 10px;
     }
     .loading{
-            display: inline-block;
-            width: 100%;
-            height: 100%;
-            background-color: #9C27B0;
-            border-radius: 10px;
-            position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: #9C27B0;
+        border-radius: 10px;
+        position: relative;
 
             animation-name: loading;
             animation-iteration-count: 1;

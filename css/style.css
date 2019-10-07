@@ -509,18 +509,17 @@ div.title-left {
         margin-top: 2px;
     }
     /* GALLERY CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-    .my-portfolio > .my-portfolio-gallery {
-        display: inline-block;
-        width: 100%;
-    }
-    .filter-item {
-        display: inline-block;
-        width: 20%;
-        float: left;
-    }
 
 
     /* SECTION MY PORTFOLIO TITLE CSS ENDS HERE */
+
+    /* MY PORTFOLIO PICTURES CSS HERE!!!!!!!!!!!!!! */
+    .item > img {
+        display: inline-block;
+        float: left;
+        width: 500px;
+        height: 500px;
+    } 
 
 /* MY PORTFOLIO END */
 

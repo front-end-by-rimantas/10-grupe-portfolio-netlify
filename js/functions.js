@@ -1,25 +1,28 @@
 // function renderAchievements() {
 //     return;
 // }
-function renderImages( target, data ) {
-    let galleryHTML = '';
-
+function renderImages(target, data) {
+    let galleryFiltering = '';
     for ( let i=0; i<data.length ; i++) {
-        galleryHTML += `
-            <div class="item">
-                <div>Image: <img src="./img/${data[i].picture}"> </div>
-                <div>Title: ${data[i].title}</div>
-                <div>Category: ${data[i].category}</div>
-            </div>`;
+        galleryFiltering += `<div class="filter-item">${data[i].category}</div>`;
     }
 
-    return document.querySelector(target).innerHTML = galleryHTML;
-}
-
-function GalleryFiltering(data) {
-    let galleryFilterHTML = '';
+    let galleryContentHTML = '';
     for ( let i=0; i<data.length ; i++) {
-        galleryFilterHTML += `<div class="filter-item">${data[i].category}
-                              </div>`; 
+        galleryContentHTML += `<div class="item">
+                               <div> cattegory ${data[i].category}</div> 
+                               <div> title ${data[i].title}</div> 
+                               <div>  ${data[i].picture}</div>
+                              </div>`;
     }
+    let FullGallery = `<div class="gallery-filter">
+                       <div class="filter-item">All</div>
+                       ${galleryFiltering}
+                        </div>
+                        <div class="item-list">
+                        <div class="item"></div>
+                        ${galleryContentHTML}
+                        </div>`;
+
+    return document.querySelector(target).innerHTML = FullGallery;
 }

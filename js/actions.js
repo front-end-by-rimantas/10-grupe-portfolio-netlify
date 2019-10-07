@@ -1,2 +1,2 @@
 // renderAchievements( achievements );
-renderImages('.my-portfolio .item-list', images);
+renderImages('.my-portfolio  .my-portfolio-gallery', images);
