@@ -54,3 +54,21 @@ let BLOG = ` <div class="title">
             ${HTML}`;  
     return document.getElementById('blog').innerHTML = BLOG;
 }
+
+
+
+function renderCounter( data ) {
+    let HTML = '';
+
+for ( let i=0; i<4; i++ ) {
+    HTML += `<div class="item-counter">
+                <div class="icon-counter">
+                    <i class="fas fa-${data[i].icon}"></i>
+                </div>
+                <p>${data[i].text}</p>
+                <h4>${data[i].title}</h4>
+            </div>`;
+}
+ 
+    return document.getElementById('counter').innerHTML = HTML;
+}

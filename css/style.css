@@ -606,3 +606,65 @@ a > h4 {
     font-weight: 200;
 }
 /* END BLOG SECTION */
+
+/* START COUNTER SECTION */
+
+.my-counter {
+    background-image: url("https://new-per.netlify.com/img/client.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 300px;
+    }
+
+ #counter {
+     margin-top: 60px;
+ }   
+ 
+.my-counter .fonas{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.item-counter {
+    display: inline-block;
+    float: left;
+    margin-bottom: 100px;
+    text-align: center;
+    max-width: 25%;
+    padding: 0px 15px;
+    line-height: 50px;
+    margin-right: 180px;
+}
+
+.item-counter:last-child {
+    margin-right: 0px;
+}
+
+.icon-counter {
+    font-size: 38px;
+    color: #9c27b0;
+}
+
+.item-counter > p{
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.item-counter > h4{
+    color: #9e9e9e;
+}
+
+
+
+
+
+/* END COUNTER SECTION */
