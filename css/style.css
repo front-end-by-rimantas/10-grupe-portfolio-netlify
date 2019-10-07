@@ -364,6 +364,7 @@ div.title-left {
 /* START SERVICES SECTION */
 .my-services {
     background-color: #f4f5f8;
+    position: relative;
 }
 .title-white {
     text-align: center;
@@ -398,11 +399,12 @@ div.title-left {
 }
 
 
-.my-services::after{
+.services::after{
     content: "";
     position: absolute;
     left: 5%;
-    top: 225%;
+    top: 50%;
+    margin-top: 30px;
     background-color: #fff;
     width: 90%;
     height: 1px;
@@ -427,6 +429,9 @@ div.title-left {
 .item-services i{
     display: inline-block;
     font-size: 32px;
+    line-height: 43px;
+    width: 82px;
+    height: 82px;
     text-align: center;
     background-color: #fff;
     color: #9c27b0;
@@ -459,6 +464,7 @@ div.title-left {
 .icon-services {
     margin-bottom: 20px;
 }
+
 /* END SERVICES SECTION */
 
 
