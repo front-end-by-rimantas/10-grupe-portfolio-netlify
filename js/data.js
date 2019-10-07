@@ -61,3 +61,26 @@ const blog = [
         icon: 'https://new-per.netlify.com/img/testimonel/3.jpg'
     }
 ];
+
+const counter = [
+    {
+        icon: 'heart', 
+        title: 'Happy Clients', 
+        text: '738', 
+    },
+    {
+        icon: 'check-square', 
+        title: 'SUCCESSFUL PROJECTS', 
+        text: '102', 
+    },
+    {
+        icon: 'trophy', 
+        title: 'AWARDS RECEIVED', 
+        text: '06', 
+    },
+    {
+        icon: 'coffee', 
+        title: 'CUPS OF TEA', 
+        text: '511', 
+    },
+];
