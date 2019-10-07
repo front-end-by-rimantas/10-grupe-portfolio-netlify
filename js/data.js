@@ -12,7 +12,7 @@ const images = [
     },
     {
         picture: '7.jpg',
-        title: 'ice cola',
+        title: 'ice coffee',
         category: 'Brand'
     },
     {

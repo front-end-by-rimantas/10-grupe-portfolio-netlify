@@ -12,7 +12,7 @@ function renderImages(target, data) {
         galleryContentHTML += `<div class="item">
                                <div> cattegory ${data[i].category}</div> 
                                <div> title ${data[i].title}</div> 
-                               <div>  ${data[i].picture}</div>
+                               <div> <img src ="./img/${data[i].picture}"></div>
                               </div>`;
     }
     let FullGallery = `<div class="gallery-filter">
