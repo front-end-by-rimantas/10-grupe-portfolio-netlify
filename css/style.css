@@ -72,6 +72,7 @@ section {
         padding: 5px;
         width: 95%;
         height: 95%;
+        cursor: pointer;
         /* object-fit: fill; */
 }
 
@@ -124,18 +125,19 @@ div.title-left {
     display: inline-block;
     float: left;
     width: 80%; 
-    font-size: 15px; 
+    font-size: 14px; 
     line-height: 26px;
     color:darkgrey; 
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
     .info-box1 {
     display: inline-block;
     float: left;
-    width: 90%; 
-    font-size: 15px; 
+    width: 80%; 
+    font-size: 13px; 
+    font-weight: 550;
     line-height: 26px;
     color:darkslategrey; 
     padding: 5px;
@@ -156,11 +158,13 @@ div.title-left {
     .info-box2 {
     display: inline-block;
     float: left;
-    width: 90%; 
-    font-size: 15px; 
+    width: 80%; 
+    font-size: 14px; 
+    font-weight: 550;
     line-height: 26px;
     color:darkslategrey; 
     padding: 5px;
+    margin-bottom: 30px;
     }
 
     .info-box2 > .age {
