@@ -362,6 +362,7 @@ div.title-left {
 
 
 /* START SERVICES SECTION */
+
 .my-services {
     background-color: #f4f5f8;
     position: relative;
@@ -428,16 +429,18 @@ div.title-left {
 }
 .item-services i{
     display: inline-block;
-    font-size: 32px;
-    line-height: 43px;
-    width: 82px;
-    height: 82px;
+    font-size: 26px;
+    line-height: 32px;
+    width: 70px;
+    height: 70px;
     text-align: center;
     background-color: #fff;
     color: #9c27b0;
     padding: 20px;
     border-radius: 50%;
     margin-bottom: 20px;
+    /* -webkit-transition: all .8s; */
+    transition: all .8s;
 }
 
 .item-services:hover i {
@@ -470,6 +473,7 @@ div.title-left {
 
 
 /* START BLOG SECTION */
+
 .title {
     text-align: center;
     text-transform: capitalize;
@@ -607,6 +611,8 @@ a > h4 {
 }
 /* END BLOG SECTION */
 
+
+
 /* START COUNTER SECTION */
 
 .my-counter {
@@ -616,12 +622,12 @@ a > h4 {
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    height: 300px;
-    }
+    height: 341px;
+}
 
  #counter {
-     margin-top: 60px;
- }   
+    padding: 0px 100px;
+}   
  
 .my-counter .fonas{
     content: "";
@@ -636,12 +642,12 @@ a > h4 {
 .item-counter {
     display: inline-block;
     float: left;
-    margin-bottom: 100px;
     text-align: center;
     max-width: 25%;
-    padding: 0px 15px;
+    padding: 0px 11px;
     line-height: 50px;
-    margin-right: 180px;
+    margin: 96px 0px;
+    margin-right: 96px
 }
 
 .item-counter:last-child {
@@ -649,22 +655,26 @@ a > h4 {
 }
 
 .icon-counter {
-    font-size: 38px;
+    font-size: 30px;
     color: #9c27b0;
+    transition: all .3s;
+}
+
+.item-counter .icon-counter i:hover {
+    font-size: 32px;
 }
 
 .item-counter > p{
     color: #fff;
     font-size: 25px;
     font-style: italic;
+    font-weight: 600;
 }
 
 .item-counter > h4{
     color: #9e9e9e;
+    text-transform: uppercase;
+    font-weight: 500;
 }
-
-
-
-
 
 /* END COUNTER SECTION */
