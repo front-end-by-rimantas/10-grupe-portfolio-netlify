@@ -13,3 +13,48 @@
 /* START: clients logo list */
 
 /* END: clients logo list */
+
+/* START: CONTACTS */
+
+
+        /* <section>
+            <div class="container">
+                <div class="get-in-touch-container"> 
+                    <div class="title">
+                    <h3><span>Get</span> In Touch</h3>
+                    
+             
+                <form>
+                    <div class="form-container">
+                    <i class="fa fa-user"></i>
+                    <input name="name" type="text" placeholder="Your Full Name Here">
+
+                     <i class="fa fa-envelope"></i>
+                     <input name="email" type="email" placeholder="Your Email Here">
+
+                    <i class="fa fa-comment"></i> 
+                    <textarea name="message" type="text" placeholder="Message For Me"></textarea> 
+             
+
+                <div class="btn3"> SEND MESSAGE </div>
+             
+
+                <div class="contact-info-container"> 
+                    <!-- cia reiks padaryt background color violetine, + duoti z-index ir opacity-->
+                        <div class="contact-pic">
+                         <img src="./img/contact.png" alt="Photo">
+                    
+                    <h2> Contact Info </h2>
+
+                    <p3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci excepturi 
+                        nemo pariatur quidem culpa reiciendis ipsam nesciunt voluptatibus quae. </p3>
+
+                    <i class="fa fa-headphones"> </i>
+                    <p4> +00123456789 </p4>
+                    <i class="fa fa-paper-plane"></i>
+                    <p5> DEMO@GMAIL.COM </p5>
+                    <i class="fa fa-map-marker"></i>
+                    <p6> 3481 MELROSE PLACE, LOS ANGELES </p6> */
+          
+
+/* END: CONTACTS */
