@@ -195,7 +195,88 @@ div.title-left {
     text-transform: uppercase;
     padding-left: 10px;
     margin-bottom: 30px;
+
+    
 }
+/* MY SKILLS RESPONSIVE CSS HERE */
+@media (max-width: 1300px) {
+    .progress {
+        width: 750px;
+        margin: 0 calc( (100% - 750px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    .progress {
+        width: 650px;
+        margin: 0 calc( (100% - 650px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+@media (max-width: 800px) {
+    .progress {
+        width: 500px;
+        margin: 0 calc( (100% - 500px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+@media (max-width: 560px) {
+    .progress {
+        width: 400px;
+        margin: 0 calc( (100% - 400px) / 2 );
+    }
+    .the-left-side {
+        width: 100%;
+    }
+    .the-right-side {
+        width: 100%;
+        
+    }
+}
+@media (max-width: 512px) {
+    .progress {
+        width: 290px;
+        margin: 0 calc( (100% - 290px) / 2 );
+    }
+    .progress-left-side {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .progress-right-side {
+        width: 100%;
+        padding-left: 0px;
+        font-size: 15px;        
+    }
+}
+
+
+
 /* END MY SKILLS SECTION */
 
 
@@ -508,20 +589,12 @@ div.title-left {
         border-bottom: 1px solid lightgray;
         margin-top: 2px;
     }
-    /* GALLERY CSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 
     /* SECTION MY PORTFOLIO TITLE CSS ENDS HERE */
 
-    /* MY PORTFOLIO PICTURES CSS HERE!!!!!!!!!!!!!! */
-    .item > img {
-        display: inline-block;
-        float: left;
-        width: 500px;
-        height: 500px;
-    } 
-
 /* MY PORTFOLIO END */
+
+
 
 
 /* START BLOG SECTION */

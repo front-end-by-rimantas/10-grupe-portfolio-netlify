@@ -1,10 +1,100 @@
 // function renderAchievements() {
 //     return;
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MY PORTFOLIO JS STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 function renderImages(target, data) {
     let galleryFiltering = '';
+    let uniqueGalleryFilters = [];
+
     for ( let i=0; i<data.length ; i++) {
-        galleryFiltering += `<div class="filter-item">${data[i].category}</div>`;
+        let galleryCategory = data[i].category;
+        if (uniqueGalleryFilters.indexOf(galleryCategory) === -1) {
+            uniqueGalleryFilters.push(galleryCategory);
+
+        }
+    
+    }
+    for ( let i=0; i<uniqueGalleryFilters.length ; i++) {
+        galleryFiltering += `<div class="filter-item">${uniqueGalleryFilters[i]}</div>`;
     }
 
     let galleryContentHTML = '';
@@ -26,3 +116,12 @@ function renderImages(target, data) {
 
     return document.querySelector(target).innerHTML = FullGallery;
 }
+
+function sortingGallery(event) {
+    const category = event.target.innerText;
+   
+     
+}
+
+
+// MY PORTFOLIO JS ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
