@@ -123,13 +123,58 @@ div.title-left {
     .about-me-content p2 {
     display: inline-block;
     float: left;
-    width: 100%; 
+    width: 80%; 
     font-size: 15px; 
     line-height: 26px;
     color:darkgrey; 
     padding: 5px;
     margin-bottom: 20px;
 }
+
+    .info-box1 {
+    display: inline-block;
+    float: left;
+    width: 90%; 
+    font-size: 15px; 
+    line-height: 26px;
+    color:darkslategrey; 
+    padding: 5px;
+    }
+    
+    .info-box1 > .name {
+    display: inline-block;
+    float: left;
+    width: 50%
+    }
+
+    .info-box1 > .email {
+    display: inline-block;
+    float: right;
+    width: 50%
+    }
+
+    .info-box2 {
+    display: inline-block;
+    float: left;
+    width: 90%; 
+    font-size: 15px; 
+    line-height: 26px;
+    color:darkslategrey; 
+    padding: 5px;
+    }
+
+    .info-box2 > .age {
+    display: inline-block;
+    float: left;  
+    width: 50%
+    }
+
+    .info-box2 > .location {
+    display: inline-block;
+    float: right; 
+    width: 50%;     
+    }
+
 /* END ABOUT ME SECTION */
 
 
