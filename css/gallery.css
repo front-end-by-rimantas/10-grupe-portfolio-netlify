@@ -1,0 +1,43 @@
+.my-portfolio-gallery {
+    display: inline-block;
+    width: 100%;
+}
+
+.gallery-filter {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: gray;
+    font-size: 15px;
+}
+.gallery-filter > .filter-item {
+    display: inline-block;
+    margin-right: 20px;
+    
+
+}
+.item-list {
+    display: inline-block;
+    width: 100%;
+
+}
+.item-list > .item{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.item-list img {
+    display: inline-block;
+    width: calc( (100% - 40px ) / 2);
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 3px solid red;
+    
+}
+.item-list img:nth-child(2) {
+    margin-right: 0px;
+} 

@@ -244,7 +244,88 @@ div.title-left {
     text-transform: uppercase;
     padding-left: 10px;
     margin-bottom: 30px;
+
+    
 }
+/* MY SKILLS RESPONSIVE CSS HERE */
+@media (max-width: 1300px) {
+    .progress {
+        width: 750px;
+        margin: 0 calc( (100% - 750px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    .progress {
+        width: 650px;
+        margin: 0 calc( (100% - 650px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+@media (max-width: 800px) {
+    .progress {
+        width: 500px;
+        margin: 0 calc( (100% - 500px) / 2 );
+    }
+    .the-left-side {
+        width: 50%;
+        float: left;
+    }
+    .the-right-side {
+        width: 50%;
+        float: right;
+        
+    }
+}
+@media (max-width: 560px) {
+    .progress {
+        width: 400px;
+        margin: 0 calc( (100% - 400px) / 2 );
+    }
+    .the-left-side {
+        width: 100%;
+    }
+    .the-right-side {
+        width: 100%;
+        
+    }
+}
+@media (max-width: 512px) {
+    .progress {
+        width: 290px;
+        margin: 0 calc( (100% - 290px) / 2 );
+    }
+    .progress-left-side {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .progress-right-side {
+        width: 100%;
+        padding-left: 0px;
+        font-size: 15px;        
+    }
+}
+
+
+
 /* END MY SKILLS SECTION */
 
 
@@ -268,17 +349,18 @@ div.title-left {
         margin-bottom: 20px;
         text-shadow: 2px 2px lightgray;
     }
+    .resume-center span {
+        color:#9C27B0;
+        padding-right: 5px;
+        position: relative;
+    }
     .resume-left > .resume-list-left > h5{
         color: #9C27B0;
     }
     .resume-right > .resume-list-right > h5{
         color: #9C27B0;
                     }
-    .resume-center span {
-        color:#9C27B0;
-        padding-right: 5px;
-        position: relative;
-    }
+    
     .my-resume > .resume-center span::before{ 
         content: "";
         position: absolute;
@@ -518,6 +600,58 @@ div.title-left {
 }
 
 /* END SERVICES SECTION */
+
+/* MY PORTFOLIO START */
+/* SECTION MY PORTFOLIO TITLE CSS STARTS HERE */
+.my-portfolio {
+    display: inline-block;
+    width: 1200px;
+    margin: calc( (1200px - 100%) / 2);
+    background-color: #fff;
+}
+    .my-portfolio-center{
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 100px;
+            
+    }
+    .my-portfolio-center > h3{
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px lightgray;
+    }
+    .my-portfolio-center span {
+        color:#9C27B0;
+        padding-right: 5px;
+        text-shadow: 2px 2px lightgray;
+        position: relative;
+    }
+    .my-portfolio-center  span::before { 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 54px;
+        left: 0px;
+        bottom: -4px;
+        border-bottom: 1px solid #9C27B0;
+        margin-top: 2px;
+    }
+    .my-portfolio > .my-portfolio-center span::after{ 
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 107px;
+        left: 47px;
+        bottom: -5px;
+        border-bottom: 1px solid lightgray;
+        margin-top: 2px;
+    }
+
+    /* SECTION MY PORTFOLIO TITLE CSS ENDS HERE */
+
+/* MY PORTFOLIO END */
+
 
 
 
