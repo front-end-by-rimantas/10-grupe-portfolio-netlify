@@ -742,7 +742,7 @@ a > h4 {
 .containerContacts > .get-in-touch-container {
     display: inline-block;
     float: left;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 55%;
     height: 95%;
     padding: 40px;
@@ -773,7 +773,7 @@ a > h4 {
     display: inline-block;
     float: left;
     height: 60px;
-    background-color: forestgreen;
+    background-color: grey;
     padding: 20px;
 }
 
@@ -782,7 +782,7 @@ a > h4 {
     float: left;
     height: 62px;
     width: 357px;
-    background-color: orange;
+    background-color: lightgrey;
     padding: 20px;
 }
    
@@ -804,7 +804,7 @@ a > h4 {
 .containerContacts > .get-in-touch-container > form > .message-container > i {
     display: inline-block;
     float: left;
-    background-color: aqua;
+    background-color: gray;
     width: 60px;
     height: 100px;
     line-height: 100px;
@@ -813,10 +813,11 @@ a > h4 {
 .containerContacts > .get-in-touch-container > form > .message-container > textarea {
     display: inline-block;
     float: left;
-    background-color: greenyellow;
-    height: 100px;
+    background-color: lightgray;
+    min-height: 100px;
+    max-height: 150px;
+    resize: vertical;
     width: 352px;
-
     padding: 20px;
 }
 
