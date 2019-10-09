@@ -108,7 +108,7 @@ div.title-left {
         color: black;
 } 
 
-    .about-me-content p1 {
+    .about-me-content .about-heading {
     display: inline-block;
     float: left;
     width: 100%;
@@ -121,7 +121,7 @@ div.title-left {
     padding: 10px;
 }
 
-    .about-me-content p2 {
+    .about-me-content .about-description {
     display: inline-block;
     float: left;
     width: 80%; 
