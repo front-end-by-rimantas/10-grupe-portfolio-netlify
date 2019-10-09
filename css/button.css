@@ -73,3 +73,10 @@
   opacity: 1;
   transition: 0s;
 }
+
+.btn1 a{
+
+  text-decoration: none;
+  color: white;
+
+}
