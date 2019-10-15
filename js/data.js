@@ -1,131 +1,53 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const images = [
     {
         picture: '6.jpg',
         title: 'beauty kit',
         category: 'Brand',
+        class : 'firsttPicture',
     },
     {
         picture: '7.jpg',
         title: 'ice coffee',
         category: 'Brand',
+        class : 'firsttPicture',
     },
     {
         picture: '2.jpg',
         title: 'Paper and pen',
         category: 'design',
+        class : 'firsttPicture',
     },
     {
         picture: '4.jpg',
         title: 'headset',
         category: 'design',
+        class : 'firsttPicture',
     },
     {
         picture: '3.jpg',
         title: 'cofie cups',
         category: 'photo',
+        class : 'firsttPicture',
     },
     {
         picture: '5.jpg',
         title: 'perfume',
         category: 'photo',
+        class : 'firsttPicture'
     },
     {
         picture: '1.jpg',
         title: 'cups holder',
         category: 'video',
+        class : 'firsttPicture'
     },
     {
         picture: '8.jpg',
         title: 'UFO',
         category: 'video',
+        class : 'lastPicture',
+    },
+];
 
 const achievements = [
     ['box', 245, 'Total projects'],

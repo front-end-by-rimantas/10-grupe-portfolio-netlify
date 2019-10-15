@@ -16,8 +16,7 @@
 .gallery-filter > .filter-item {
     display: inline-block;
     margin-right: 20px;
-    
-
+    cursor: pointer;
 }
 .item-list {
     display: inline-block;
@@ -27,17 +26,25 @@
 .item-list > .item{
     display: inline-block;
     float: left;
-    width: 100%;
+    width: calc(100% / 3 - 20px);
     font-family: 'Roboto', sans-serif;
 }
 .item-list img {
     display: inline-block;
-    width: calc( (100% - 40px ) / 2);
-    margin-right: 5px;
-    margin-bottom: 10px;
-    border: 3px solid red;
-    
+    float: left;
+    width: 360px;
+    height: 200px;
+    margin: 10px;
 }
-.item-list img:nth-child(2) {
-    margin-right: 0px;
-} 
+.hidden {
+    display: none !important;
+}
+
+.aaaaa{
+    display: none;
+}
+
+.item-list .lastPicture {
+    width: 740px;
+    height: 200px;
+}
