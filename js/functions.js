@@ -2,85 +2,6 @@
 // function renderAchievements() {
 //     return;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // MY PORTFOLIO JS STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 function renderImages(target, data) {
     let galleryFiltering = '';
@@ -101,9 +22,9 @@ function renderImages(target, data) {
     let galleryContentHTML = '';
     for ( let i=0; i<data.length ; i++) {
         galleryContentHTML += `<div class="item">
-                               <div> cattegory ${data[i].category}</div> 
-                               <div> title ${data[i].title}</div> 
-                               <div> <img src ="./img/${data[i].picture}"></div>
+                               <div class="aaaaa"> <span class = "catt">${data[i].category}</span></div> 
+                               <div class="aaaaa"> title ${data[i].title}</div> 
+                               <div> <img class="${data[i].class}" src ="./img/${data[i].picture}"></div>
                               </div>`;
     }
     let FullGallery = `<div class="gallery-filter">
@@ -111,7 +32,6 @@ function renderImages(target, data) {
                        ${galleryFiltering}
                         </div>
                         <div class="item-list">
-                        <div class="item"></div>
                         ${galleryContentHTML}
                         </div>`;
 
@@ -119,11 +39,27 @@ function renderImages(target, data) {
 }
 
 function sortingGallery(event) {
-    const category = event.target.innerText;
-   
-     
-}
+    const category = event.target.textContent;
+    const allGalleryItems = document.querySelectorAll('.my-portfolio-gallery > .item-list > .item');
 
+
+    if (category === 'All'){
+        allGalleryItems.forEach( block => {
+            block.classList.remove('hidden');
+        })
+    } else {
+        allGalleryItems.forEach( block => {
+            if (block.querySelector('span.catt').textContent === category ) {
+                block.classList.remove('hidden');
+            } else {
+                block.classList.add('hidden');
+            }
+        })    
+    }
+
+return;
+
+}
 
 // MY PORTFOLIO JS ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
