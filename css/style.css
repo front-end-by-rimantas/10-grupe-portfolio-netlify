@@ -879,3 +879,145 @@ a > h4 {
 }
 
 /* END COUNTER SECTION */
+
+/* START CONTACT SECTION */
+
+.containerContacts {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    height: 90vh;
+    /* background-color: pink; */
+    margin: 0 calc(50% - 40%);
+}
+
+.containerContacts > .get-in-touch-container {
+    display: inline-block;
+    float: left;
+    /* background-color: yellow; */
+    width: 55%;
+    height: 85%;
+    padding: 40px;
+}
+
+.containerContacts > .get-in-touch-container > .title {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.containerContacts > .get-in-touch-container > form {
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+}
+
+.containerContacts > .get-in-touch-container > form > .name-container {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+.containerContacts > .get-in-touch-container > form > div > i {
+    display: inline-block;
+    float: left;
+    height: 60px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.containerContacts > .get-in-touch-container > form > div > input {
+    display: inline-block;
+    float: left;
+    height: 62px;
+    width: 357px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+   
+.containerContacts > .get-in-touch-container > form > .email-container {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+.containerContacts > .get-in-touch-container > form > .message-container {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.containerContacts > .get-in-touch-container > form > .message-container > i {
+    display: inline-block;
+    float: left;
+    background-color: gray;
+    width: 60px;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+}
+.containerContacts > .get-in-touch-container > form > .message-container > textarea {
+    display: inline-block;
+    float: left;
+    background-color: lightgray;
+    min-height: 100px;
+    max-height: 150px;
+    resize: vertical;
+    width: 352px;
+    padding: 20px;
+}
+
+.containerContacts > .contact-info-container {
+    display: inline-block;
+    float: left;
+    background-color:#9C27B0;
+    width: 45%;
+    height: 85%;
+    padding: 40px;
+}
+
+.containerContacts > .contact-info-container > .title {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.containerContacts > .contact-info-container > .contact-pic {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    z-index: -100;
+    opacity: 0.1;
+    /* padding: 40px; */
+    /* width: 22%;
+    height: 22%;
+    cursor: pointer;
+    object-fit: fill; */
+}
+
+.containerContacts > .contact-info-container p1 {
+    display: inline-block;
+    float: left;
+    color: white; 
+    font-size: 40px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.containerContacts > .contact-info-container p2 {
+    display: inline-block;
+    float: left;
+    color: white; 
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* END CONTACT SECTION */
