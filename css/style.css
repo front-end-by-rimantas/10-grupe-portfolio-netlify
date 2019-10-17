@@ -879,3 +879,89 @@ a > h4 {
 }
 
 /* END COUNTER SECTION */
+
+/*contact section*/
+section {
+    padding:60px 10px
+    } 
+    
+section:nth-child(even) {
+    background-color:#e9e5e5
+    }
+    
+.section-container {
+    text-align:center;
+    margin:0 auto;
+    max-width:700px
+    }
+    
+.section-title {
+    margin:0 auto 20px auto;
+    font-weight:700;
+    font-size:30px;
+    padding:10px;
+    text-transform:uppercase
+    } 
+
+    body .contact-section .form {
+        width:100%
+    }
+    
+    body .contact-section .form .form-control {
+        width:100%;
+        margin-bottom:20px;
+        padding:5px;
+        font-size:20px;
+        border-radius:5px;
+        border:1px solid #000
+    }
+    
+    body .contact-section .form .input-email,body .contact-section .form .input-name {
+        height:40px
+    }
+    
+    body .contact-section .form .form-submit {
+        background-color:#f44b4b;
+        border-style:none;
+        color:#fff;
+        border-radius:5px;
+        font-size:18px;
+        padding:15px 25px;
+        -webkit-transition:all .5s ease;
+        transition:all .5s ease
+    }
+    
+    body .contact-section .form .form-submit:hover {
+        cursor:pointer;
+        background-color:#b40808
+    }
+    
+    body .contact-section .fcc-icon,body .contact-section .github-icon,body .contact-section .linkedin-icon {
+        margin:0 20px;
+        color:#000;
+        -webkit-transition:color .5s ease;
+        transition:color .5s ease
+    }
+    
+    body .contact-section .fcc-icon:hover {
+        color:#006607
+    }
+    
+    body .contact-section .github-icon:hover {
+        color:#9c00ae
+    }
+    
+    body .contact-section .linkedin-icon:hover {
+        color:#3171b3
+    }
+    
+    body .footer-border {
+        border-bottom:2px solid #f44b4b
+    }
+    
+    body footer {
+        background-color:#5682c5;
+        padding:20px;
+        text-align:center;
+        color:#fff
+    }
